@@ -300,3 +300,4 @@ C:\Users\marek\RiderProjects\MauiApp2\obj\Debug\net8.0-maccatalyst\maccatalyst-x
 C:\Users\marek\RiderProjects\MauiApp2\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MauiApp2.pdb
 C:\Users\marek\RiderProjects\MauiApp2\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MauiApp2.genruntimeconfig.cache
 C:\Users\marek\RiderProjects\MauiApp2\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\MauiApp2.dll
+C:\Users\marek\RiderProjects\MauiApp2\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MauiApp2.sourcelink.json
