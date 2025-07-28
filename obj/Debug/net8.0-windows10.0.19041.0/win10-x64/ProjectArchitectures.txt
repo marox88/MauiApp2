@@ -1,0 +1,1 @@
+C:\Users\marek\RiderProjects\MauiApp2\MauiApp2.csproj;x64
