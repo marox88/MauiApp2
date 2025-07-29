@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ai.zencoder.plugin.chat.index">
-    <option name="activeChatId" value="9bdd2235-d9b3-4f75-8892-4bee78b362b7" />
     <option name="chatMetadata" value="{&quot;9bdd2235-d9b3-4f75-8892-4bee78b362b7&quot;:{&quot;id&quot;:&quot;9bdd2235-d9b3-4f75-8892-4bee78b362b7&quot;,&quot;title&quot;:&quot;C# Code Error Resolution&quot;,&quot;createdAt&quot;:1753701590503,&quot;updatedAt&quot;:1753701618688,&quot;isAgent&quot;:true,&quot;isNameGenerated&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;I can see the issue in your CarListViewModel. The `ICommand` attribute is not recognized because you...&quot;},&quot;0cd45638-0020-48fb-8a76-12721d81b2c5&quot;:{&quot;id&quot;:&quot;0cd45638-0020-48fb-8a76-12721d81b2c5&quot;,&quot;title&quot;:&quot;New Button Implementation Guide&quot;,&quot;createdAt&quot;:1753448987747,&quot;updatedAt&quot;:1753449035414,&quot;isAgent&quot;:true,&quot;isNameGenerated&quot;:true,&quot;messageCount&quot;:2,&quot;lastMessagePreview&quot;:&quot;I'll help you create a new button in your MAUI application. Looking at the current MainPage.xaml fil...&quot;}}" />
   </component>
 </project>

@@ -13,14 +13,31 @@
         <member name="P:MauiApp2.ViewModels.BaseViewModel.IsLoading">
             <inheritdoc cref="F:MauiApp2.ViewModels.BaseViewModel.isLoading"/>
         </member>
+        <member name="T:MauiApp2.ViewModels.CarDetailsViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp2.ViewModels.CarDetailsViewModel.Car">
+            <inheritdoc cref="F:MauiApp2.ViewModels.CarDetailsViewModel.car"/>
+        </member>
         <member name="T:MauiApp2.ViewModels.CarListViewModel">
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiApp2.ViewModels.CarListViewModel.IsRefreshing">
+            <inheritdoc cref="F:MauiApp2.ViewModels.CarListViewModel.isRefreshing"/>
         </member>
         <member name="F:MauiApp2.ViewModels.CarListViewModel.getCarListCommand">
             <summary>The backing field for <see cref="P:MauiApp2.ViewModels.CarListViewModel.GetCarListCommand"/>.</summary>
         </member>
         <member name="P:MauiApp2.ViewModels.CarListViewModel.GetCarListCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MauiApp2.ViewModels.CarListViewModel.GetCarList"/>.</summary>
+        </member>
+        <member name="F:MauiApp2.ViewModels.CarListViewModel.getCarDetailsCommand">
+            <summary>The backing field for <see cref="P:MauiApp2.ViewModels.CarListViewModel.GetCarDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:MauiApp2.ViewModels.CarListViewModel.GetCarDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MauiApp2.ViewModels.CarListViewModel.GetCarDetails(MauiApp2.Models.Car)"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
@@ -37,6 +54,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsNotLoading">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsNotLoading" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -51,6 +74,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotLoading">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
         </member>
     </members>
 </doc>

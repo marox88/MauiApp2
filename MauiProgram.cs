@@ -1,5 +1,6 @@
 ﻿using MauiApp2.Services;
 using MauiApp2.ViewModels;
+using MauiApp2.Views;
 using Microsoft.Extensions.Logging;
 
 namespace MauiApp2;
@@ -18,8 +19,12 @@ public static class MauiProgram
             });
 
         builder.Services.AddSingleton<CarService>();
+        
         builder.Services.AddSingleton<CarListViewModel>();
+        builder.Services.AddTransient<CarDetailsViewModel>();
+        
         builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddTransient<CarDetailsPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

@@ -1,8 +1,10 @@
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using CommunityToolkit.Mvvm.ComponentModel;
 using MauiApp2.Models;
 using MauiApp2.Services;
 using CommunityToolkit.Mvvm.Input;
+using MauiApp2.Views;
 
 namespace MauiApp2.ViewModels;
 
@@ -17,6 +19,8 @@ public partial class CarListViewModel : BaseViewModel
       Title = "Car List";
       this.carService = carService;
    }
+
+   [ObservableProperty] private bool isRefreshing;
 
    [RelayCommand]
    async Task GetCarList()
@@ -43,6 +47,18 @@ public partial class CarListViewModel : BaseViewModel
       finally
       {
          IsLoading = false;
+         IsRefreshing = false;
       }
+   }
+
+   [RelayCommand]
+   async Task GetCarDetails(Car car)
+   {
+      if (car == null) return;
+
+      await Shell.Current.GoToAsync(nameof(CarDetailsPage), true, new Dictionary<string, object>
+      {
+         { nameof(Car), car }
+      });
    }
 }
